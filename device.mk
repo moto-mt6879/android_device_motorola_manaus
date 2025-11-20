@@ -75,7 +75,9 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(DEVICE_PATH)
+    $(DEVICE_PATH) \
+    hardware/motorola \
+    hardware/mediatek/libaedv
 
 # Inherit from mt6879-common
 $(call inherit-product, device/motorola/mt6879-common/mt6879.mk)
