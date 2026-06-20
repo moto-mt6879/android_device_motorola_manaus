@@ -55,7 +55,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
-    FrameworkOverlayManaus
+    FrameworkOverlayManaus \
+    RegulatoryOverlayXT2307-1 \
+    RegulatoryOverlayXT2307-2 \
+    RegulatoryOverlayXT2307-3
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
