@@ -6,6 +6,10 @@
 
 DEVICE_PATH := device/motorola/manaus
 
+# Audio
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(DEVICE_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # Init
 PRODUCT_PACKAGES += \
     init.mmi.overlay.rc
