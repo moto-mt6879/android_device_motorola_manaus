@@ -139,6 +139,12 @@ vendor/firmware/aw882xx_acf.bin
 vendor/firmware/aw963xx_reg_0.bin
 vendor/firmware/aw963xx_reg_evt_0.bin
 
+# Bluetooth (Firmware)
+vendor/firmware/BT_FW.cfg
+vendor/firmware/soc7_0_ram_bt_1_1_hdr.bin
+vendor/firmware/soc7_0_ram_bt_1a_1_hdr.bin
+vendor/firmware/soc7_0_ram_bt_1b_1_hdr.bin
+
 # Camera
 vendor/bin/SN1X0__RF-On.txt
 vendor/bin/hw/motorola.hardware.camera.imgtuner.aidl-service
