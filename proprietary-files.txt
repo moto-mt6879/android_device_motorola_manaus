@@ -598,6 +598,11 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6879
 vendor/firmware/lib3a.ccu
 vendor/firmware/lib3a.ccu_dummy
 
+# Charger (firmware)
+vendor/firmware/NFG1000A_battery_parameter_SB18D87942.bin
+vendor/firmware/NFG1000A_battery_parameter_SB18D87943.bin
+vendor/firmware/NFG1000A_firmware.bin
+
 # Fingerprint
 vendor/lib64/libRbsFlow.so
 vendor/lib64/hw/fingerprint.goodix.default.so
