@@ -613,6 +613,12 @@ vendor/firmware/soc7_0_ram_mcu_1a_1_hdr.bin
 vendor/firmware/soc7_0_ram_mcu_1b_1_hdr.bin
 vendor/firmware/soc7_0_ram_wmmcu_1a_1_hdr.bin
 
+# Felica
+product/etc/felica/common.cfg
+product/etc/felica/mfm.cfg
+product/etc/felica/mfs.cfg
+product/priv-app/MobileFeliCaClient/MobileFeliCaClient.apk;PRESIGNED
+
 # Fingerprint
 vendor/lib64/libRbsFlow.so
 vendor/lib64/hw/fingerprint.goodix.default.so
