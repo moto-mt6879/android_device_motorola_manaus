@@ -6,6 +6,10 @@
 
 DEVICE_PATH := device/motorola/manaus
 
+# Init
+PRODUCT_PACKAGES += \
+    init.mmi.overlay.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)

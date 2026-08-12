@@ -1,0 +1,12 @@
+//
+// SPDX-FileCopyrightText: PixelOS
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.mmi.overlay.rc",
+    src: "init.mmi.overlay.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
