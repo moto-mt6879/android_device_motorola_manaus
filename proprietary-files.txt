@@ -735,3 +735,9 @@ vendor/app/mcRegistry/6b3f5fa0f8cf55a7be2582587d62d63a.drbin
 vendor/app/mcRegistry/abcd270ea5c44c58bcd3384a2fa2539e.tabin
 vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin
 vendor/app/mcRegistry/ffffffff000000000000000000000003.tabin
+
+# WIFI (firmware)
+vendor/firmware/WIFI_RAM_CODE_soc7_0_1a_1.bin
+vendor/firmware/txpowerctrl.cfg
+vendor/firmware/txpowerctrl_na.cfg
+vendor/firmware/wifi.cfg
