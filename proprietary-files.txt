@@ -591,3 +591,10 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6879
 # Camera (firmware)
 vendor/firmware/lib3a.ccu
 vendor/firmware/lib3a.ccu_dummy
+
+# Fingerprint
+vendor/lib64/libRbsFlow.so
+vendor/lib64/hw/fingerprint.goodix.default.so
+vendor/lib64/libgf_hal.so
+vendor/lib64/com.motorola.hardware.display.panel@1.0.so
+vendor/lib64/com.motorola.hardware.display.panel@1.1.so

@@ -4,6 +4,12 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+sh_binary {
+    name: "init.oem.fingerprint2.sh",
+    src: "init.oem.fingerprint2.sh",
+    vendor: true,
+}
+
 prebuilt_etc {
     name: "init.mmi.overlay.rc",
     src: "init.mmi.overlay.rc",
