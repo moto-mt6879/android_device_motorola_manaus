@@ -709,6 +709,7 @@ vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
 vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
 
 # Trusted Execution Environment (TEE)
+vendor/etc/init/trustonic.rc
 vendor/app/mcRegistry/020f0000000000000000000000000000.drbin
 vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin
 vendor/app/mcRegistry/031c0000000000000000000000000000.drbin
