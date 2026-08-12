@@ -9,6 +9,9 @@ DEVICE_PATH := device/motorola/manaus
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := manaus
 
+# DTBO
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
+
 # Kernel
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules/modules.load))
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules/modules.load.recovery))
