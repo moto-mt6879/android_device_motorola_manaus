@@ -25,6 +25,13 @@ BOARD_MOTOROLA_DYNAMIC_PARTITIONS_SIZE := 7305808160
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# SKU
+ODM_MANIFEST_SKUS += be de bn dn
+ODM_MANIFEST_BE_FILES := $(DEVICE_PATH)/sku/manifest_be.xml
+ODM_MANIFEST_DE_FILES := $(DEVICE_PATH)/sku/manifest_de.xml
+ODM_MANIFEST_BN_FILES := $(DEVICE_PATH)/sku/manifest_bn.xml
+ODM_MANIFEST_DN_FILES := $(DEVICE_PATH)/sku/manifest_dn.xml
+
 # VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 

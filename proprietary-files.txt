@@ -671,3 +671,33 @@ product/etc/permissions/com.motorola.camera3.content.ai.xml:vendor/etc/permissio
 product/etc/permissions/com.motorola.camera3.lens.xml:vendor/etc/permissions/com.motorola.camera3.lens.xml
 product/etc/permissions/com.motorola.camera3.xml:vendor/etc/permissions/com.motorola.camera3.xml
 product/etc/permissions/com.motorola.moto-uirefresh.xml
+
+# NFC
+vendor/bin/nxpnfcinfo
+vendor/bin/pnscr
+vendor/bin/pnscr_cal
+vendor/etc/libnfc-nxp.conf
+vendor/etc/libese-nxp.conf
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nci_100.conf
+vendor/etc/libnfc-nci_220.conf
+vendor/etc/libnfc-nci_220e.conf
+vendor/etc/libnfc-nci_557.conf
+vendor/etc/libnfc-nci_560.conf
+vendor/etc/libnfc-nxp-pnscr.conf
+vendor/etc/libnfc-nxp_220.conf
+vendor/etc/libnfc-nxp_220e.conf
+vendor/etc/libnfc-nxp_560.conf
+vendor/etc/nfc_calibration.txt
+vendor/etc/sn100u_nfcon.pnscr
+vendor/etc/sn100u_pnx_ese_cplc.pnscr
+vendor/lib64/libnxp_extamp_intf.so
+vendor/lib64/libpn557_fw.so
+vendor/lib64/libpn560_fw.so
+vendor/lib64/libsn100u_fw.so
+vendor/lib64/libsn220u_fw.so
+vendor/lib64/ls_client.so;DISABLE_CHECKELF
+
+# Secure element
+vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
+vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
