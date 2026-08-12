@@ -48,7 +48,6 @@ on post-fs-data
     chmod 0770 /data/vendor/camera_dump
 
 on late-init
-    exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -r -d /vendor/lib/modules zram
     #moto algo params
     chmod 0660 /sys/bus/platform/drivers/mtk_nanohub/algo_params
     chown system system /sys/bus/platform/drivers/mtk_nanohub/algo_params
