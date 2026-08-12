@@ -5,4 +5,10 @@
 //
 
 soong_namespace {
+    imports: [
+        "device/motorola/mt6879-common",
+        "hardware/motorola",
+        "hardware/google/interfaces",
+        "hardware/google/pixel"
+    ],
 }
