@@ -33,6 +33,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/keylayout/goodix_ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/goodix_ts.kl \
     $(DEVICE_PATH)/configs/keylayout/fts_ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/fts_ts.kl
 
+# MotoActions
+PRODUCT_PACKAGES += \
+    MotoActionsManaus
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
