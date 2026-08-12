@@ -641,3 +641,10 @@ vendor/firmware/tm_goodix_cfg_group.bin
 vendor/firmware/tm_goodix_firmware.bin
 vendor/firmware/tm_goodix_test_limits_255.csv
 vendor/firmware/valhall-1691526.wa
+
+# Fuelgauge
+vendor/bin/fuelgauged
+vendor/bin/fuelgauged_nvram
+vendor/etc/init/fuelgauged_init.rc
+vendor/etc/init/fuelgauged_nvram_init.rc
+vendor/lib64/libfgauge_gm30.so
