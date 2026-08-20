@@ -25,7 +25,6 @@ namespace_imports = [
     'vendor/motorola/mt6879-common',
     'device/motorola/manaus',
     'hardware/mediatek',
-    'hardware/mediatek/libaedv',
     'hardware/motorola',
 ]
 
