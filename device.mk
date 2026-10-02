@@ -10,6 +10,9 @@ DEVICE_PATH := device/motorola/manaus
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapstartsize=24m \

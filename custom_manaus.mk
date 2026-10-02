@@ -24,6 +24,12 @@ PRODUCT_MODEL := motorola edge 40 neo
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
+#custom SHIT!-->
+custom_MAINTAINER := MinitxT
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
+TARGET_HAS_UDFPS := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=manaus \
     BuildDesc="manaus_g_sys-user 15 V1TMS35H.3-45-3-2-7 0688a3-c2841 release-keys" \
